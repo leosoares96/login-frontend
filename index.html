@@ -2,47 +2,30 @@
 <html>
 <head>
     <meta charset='utf-8'>
+    <meta name="author" content="Leonardo Soares">
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>SISTEMA DE PESQUISA DE SATISFAÇÃO</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>TELA DE LOGIN</title>
     <!-- CSS -->
     <link rel="stylesheet" type='text/css' href="css/materialize.min.css">
-    <link rel='stylesheet' type='text/css' href='css/login.css' media='screen'>
+    <link rel='stylesheet' type='text/css' href='css/style.css' media='screen'>
     <!-- icones -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 </head>
 <body>
-    <div class="container">
-        <div class="row" background='#f00'>
-            <div id="box-login" class="col m6 offset-m3 s12">
-                <h3 class="flow-text teal-text center-align">Login com Materialize</h3>
-                <form action="#" class="col s12">
-                    <div class="row">
-                        <div class="input-field col s12">
-                            <input id="matricula" type="text" class="validate">
-                            <label for="matricula">Matrícula</label>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="input-field col s12">
-                            <input id="senha" type="password" class="validate">
-                            <label for="senha">Senha</label>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="input-field col s7 right-align">
-                            <a class="waves-effect waves-light  ">Ainda não tem acesso? Clique aqui!</a>
-                        </div>
-                        <div class="input-field col s5">
-                            <button class="btn waves-effect waves-light right" id="btn-login" name="entrar">Entrar
-                                <i class="material-icons right">send</i>
-                            </button>
-                        </div>
-                    </div>
-                </form>
-            </div>
-        </div>
+    <div class="container" id="app-login"> 
+    </div> 
+
+    <!-- Modal -->
+    <div id="modal1" class="modal">
+      <div class="modal-content">
+        <h4>TITULO MODAL</h4>
+        <p>OLÁ MUNDO</p>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-close waves-effect waves-green btn-flat">OK</a>
+      </div>
     </div>
 </body>
 
@@ -50,5 +33,6 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/materialize.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    <script src="js/vue.js"></script>
     <script src="js/login.js"></script>
 </html>
